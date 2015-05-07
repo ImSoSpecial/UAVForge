@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="LongEntries">
+        <item>East</item>
+        <item>West</item>
+    </string-array>
+
+    <string-array name="LatEntries">
+        <item>North</item>
+        <item>South</item>
+    </string-array>
+
+</resources>

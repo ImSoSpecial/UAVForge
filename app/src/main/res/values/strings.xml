@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UAV Forge</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map_planning">MapPlanning</string>
+    <string name="title_activity_map_planning_table">MapPlanningTable</string>
+    <string name="title_activity_map_execution">MapExecution</string>
+    <string name="title_activity_mission_recap">MissionRecap</string>
+    <string name="title_activity_mission_tutorial">MissionTutorial</string>
+    <string name="title_activity_mpinput_form">MPInputForm</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#434A54"
+    tools:context="uavforge.uavforge.MapExecution">
+
+        <RelativeLayout
+            android:id="@+id/MapContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/ButtonContainer">
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/MEGoogleMapView"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ButtonContainer"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="5dp">
+
+            <Button
+                android:id="@+id/returnHomeButton"
+                style="@style/UAVButton.exec"
+                android:text="return home"
+                android:layout_alignParentTop="true"
+                android:onClick="onReturnHomeClicked" />
+
+            <Button
+                android:id="@+id/finishButton"
+                style="@style/UAVButton.exec"
+                android:text="finish"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/returnHomeButton"
+                android:onClick="onFinishClicked" />
+
+            <Button
+                android:id="@+id/backButton"
+                style="@style/UAVButton.exec"
+                android:text="back"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/finishButton"
+                android:onClick="onBackClicked" />
+        </RelativeLayout>
+
+</RelativeLayout>

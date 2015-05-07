@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uavforge.uavforge" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainWindow"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MapPlanning"
+            android:label="@string/title_activity_map_planning" >
+        </activity>
+        <activity
+            android:name=".MapPlanningTable"
+            android:label="@string/title_activity_map_planning_table" >
+        </activity>
+        <activity
+            android:name=".MapExecution"
+            android:label="@string/title_activity_map_execution" >
+        </activity>
+        <activity
+            android:name=".MissionRecap"
+            android:label="@string/title_activity_mission_recap" >
+        </activity>
+        <activity
+            android:name=".MissionTutorial"
+            android:label="@string/title_activity_mission_tutorial" >
+        </activity>
+        <activity
+            android:name=".MPInputForm"
+            android:label="@string/title_activity_mpinput_form">
+        </activity>
+    </application>
+
+</manifest>
